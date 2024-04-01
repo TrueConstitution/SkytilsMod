@@ -124,7 +124,7 @@ object ProtectItems {
                                 ItemProtectStrategy.ProtectType.SELLTOAUCTION
                             )
                             if (strategy != null) {
-                                notifyStopped(event, "auctioning", strategy)
+                               // notifyStopped(event, "auctioning", strategy)
                                 return
                             }
                         }
