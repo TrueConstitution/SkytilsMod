@@ -94,7 +94,7 @@ object Utils {
 
     val isBSMod by lazy {
         val cal = Calendar.getInstance()
-        return@lazy cal.get(Calendar.MONTH) == Calendar.APRIL && cal.get(Calendar.DAY_OF_MONTH) == 1
+        return@lazy false
     }
 
     fun getBlocksWithinRangeAtSameY(center: BlockPos, radius: Int, y: Int): Iterable<BlockPos> {
